@@ -1,0 +1,3 @@
+Error, "phase1/check0/c00.rc": 
+  undeclared identifier 'x'.
+Compile: failure.
