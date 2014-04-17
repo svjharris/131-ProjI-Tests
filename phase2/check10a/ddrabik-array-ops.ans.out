@@ -1,0 +1,9 @@
+Error, "phase2/check10a/ddrabik-array-ops.rc": 
+  Incompatible type int[5] to binary operator +, numeric expected.
+Error, "phase2/check10a/ddrabik-array-ops.rc": 
+  Incompatible type float[1] to operator ++, equivalent to int, float, or pointer expected.
+Error, "phase2/check10a/ddrabik-array-ops.rc": 
+  Incompatible type float[1] to operator --, equivalent to int, float, or pointer expected.
+Error, "phase2/check10a/ddrabik-array-ops.rc": 
+  Incompatible type float[1] to unary operator !, equivalent to bool expected.
+Compile: failure.

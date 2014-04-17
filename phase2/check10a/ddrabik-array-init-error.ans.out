@@ -1,0 +1,33 @@
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Value of index expression not known at compile time.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Value of index expression not known at compile time.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Value of index expression not known at compile time.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  undeclared identifier 'aa'.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  undeclared identifier 'ab'.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  undeclared identifier 'ac'.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Index expression value (0) in array declaration must be > 0.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Index expression value (-1) in array declaration must be > 0.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Index expression value (0) in array declaration must be > 0.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Incompatible type int to unary operator !, equivalent to bool expected.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Index expression type (float) in array declaration not equivalent to int.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Index expression type (bool) in array declaration not equivalent to int.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase2/check10a/ddrabik-array-init-error.rc": 
+  redeclared identifier 'e'.
+Compile: failure.

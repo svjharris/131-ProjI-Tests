@@ -1,0 +1,31 @@
+function : void main() {
+	
+	float[10] i;
+	float a = i; // error. can't assign array to float
+	bool aa = i; // error. can't assign array to bool
+	int aaa = i; // error. can't assign array to int
+	
+	int[10] j;
+	float b = j; // error. can't assign array to float
+	bool bb = j; // error. can't assign array to bool
+	int bbb = j; // error. can't assign array to int
+	
+	bool[10] k;
+	float c = k; // error. can't assign array to float
+	bool cc = k; // error. can't assign array to bool
+	int ccc = k; // error. can't assign array to int
+	
+	float[5] m;
+	m = m; // error. arrays non-modifiable lval
+	
+	float[5] n;
+	float[5] o;
+	n = o; // error. arrays non-modifiable lval
+	
+	int[5] p;
+	float[5] q;
+	p = q; // error. arrays non-modifiable lval
+	q = p; // error, arrays non-modifiable lval	
+	
+	
+}

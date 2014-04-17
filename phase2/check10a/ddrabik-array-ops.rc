@@ -1,0 +1,20 @@
+function : void main() {
+	
+	int[5] c;
+	int ca;
+	ca = c[1] + c[1]; 	// valid
+
+	int[5] b;
+	int ba;
+	ba = b + b; 		// invalid. incompatible types to + 
+
+	int[5] d;
+	d[0]++;				// valid
+	d[1]--;				// valid
+	
+	float[1] g;
+	g++; 				// error. incompatible type to ++
+	g--; 				// error. incompatible type to --
+	!g;					// error. incompatible type to !
+	
+}

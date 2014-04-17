@@ -1,0 +1,27 @@
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type float[10] not assignable to constant/variable of type float.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type float[10] not assignable to constant/variable of type bool.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type float[10] not assignable to constant/variable of type int.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type int[10] not assignable to constant/variable of type float.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type int[10] not assignable to constant/variable of type bool.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type int[10] not assignable to constant/variable of type int.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type bool[10] not assignable to constant/variable of type float.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type bool[10] not assignable to constant/variable of type bool.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Initialization value of type bool[10] not assignable to constant/variable of type int.
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase2/check10a/ddrabik-array-assign.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

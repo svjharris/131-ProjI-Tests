@@ -1,0 +1,48 @@
+int[5] aa; 			// valid
+bool[5] ab;			// valid
+float[5] ac;		// valid
+
+int[5 + 5] ba;		// valid
+bool[6 + 6] bb; 	// valid
+float[7 + 7] bc;	// valid
+
+int[8 - 1] ca;		// valid
+bool[9 - 2] cb; 	// valid
+float[10 - 3] cc;	// valid
+
+int[1 * 2] da;		// valid
+bool[3 * 4] db; 	// valid
+float[5 * 6] dc;	// valid
+
+int[2 / 2] ea;		// valid
+bool[5 / 1] eb; 	// valid
+float[10 / 5] ec;	// valid
+
+int[10 % 6] fa;		// valid
+bool[20 % 3] fb; 	// valid
+float[7 % 5] fc;	// valid
+
+int[6 & 4] ga;		// valid
+bool[2 | 8] gb; 	// valid
+float[5 ^ 3] gc;	// valid
+
+const int x = 43;
+int[x + 5] ha;		// valid
+int[x - 1] hb;		// valid
+int[x * 2] hc;		// valid
+int[x / 2] hd;		// valid
+int[x % 3] he;		// valid
+int[x & 21] hf;		// valid
+bool[x | 8] hg; 	// valid
+float[x ^ 3] hh;	// valid
+int[x] hi;			// valid
+
+const int y = 2;
+int[x + y] ja;		// valid
+int[x - y] jb;		// valid
+int[x * y] jc;		// valid
+int[x / y] jd;		// valid
+int[x % y] je;		// valid
+int[x & y] jf;		// valid
+bool[x | y] jg; 	// valid
+float[x ^ y] jh;	// valid

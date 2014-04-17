@@ -1,0 +1,29 @@
+int a;
+int b = 5;
+const int c = 5;
+bool[a] aa;			// invalid. not known at compile time
+float[b] ab;		// invalid. not known at compile time
+float[a + b] ac;	// invalid. not known at compile time
+
+bool ad = aa[1];	// invalid. undeclared identifier
+float ae = ab[1];	// invalid. undeclared identifier
+float af = ac[1];	// invalid. undeclared identifier
+
+int[0] da;			// invalid. array must be greater than 0
+int[1 - 2] db;		// invalid. arithmetic exception occured.
+int[2 & 8] dc;		// invalid. arithmetic exception occured.
+
+const int e = 55;	
+int[!e] ea;			// invalid. incompatible type int to unary
+int[e++] eb;		// invalid. operand to ++ not modifiable lval
+int[e = 0] ec;		// invalid. e is non-mod lval
+
+int[1.0] fa;		// invalid. float in array declaration
+int[true] fb;		// invalid. bool in array declaration
+int[true + 1.0] fc; // invalid. incompatible type bool to +.
+
+function : void foo() {
+	int e;
+	float[10] e;	// invalid. redeclared identifier e
+}
+
