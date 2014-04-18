@@ -1,0 +1,15 @@
+Error, "phase2/check8s/ddrabik-auto.rc": 
+  Initialization value of global/static variable named ab not known at compile time.
+Error, "phase2/check8s/ddrabik-auto.rc": 
+  Initialization value of global/static variable named ba not known at compile time.
+Error, "phase2/check8s/ddrabik-auto.rc": 
+  Initialization value of global/static variable named ca not known at compile time.
+Error, "phase2/check8s/ddrabik-auto.rc": 
+  Initialization value of global/static variable named db not known at compile time.
+Error, "phase2/check8s/ddrabik-auto.rc": 
+  Initialization value of constant named fa not known at compile time.
+Error, "phase2/check8s/ddrabik-auto.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase2/check8s/ddrabik-auto.rc": 
+  Initialization value of constant named ha not known at compile time.
+Compile: failure.
