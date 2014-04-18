@@ -1,0 +1,39 @@
+auto aa  = true;
+auto ab  = 1.0;
+
+// all these tests should fail
+auto ac  = aa + ab; 	
+auto aca = ab + aa;	
+auto ad  = aa - ab;	
+auto ada = ab - aa;	
+auto ae  = aa * ab;	
+auto aea = ab * aa;	
+auto ae  = aa / ab;	
+auto aea = ab / aa;	
+auto af  = aa % ab;		
+auto afa = ab % aa;	
+auto ag  = aa < ab;
+auto aga = ab < aa;
+auto ah  = aa > ab;
+auto aha = ab > aa;
+auto ai  = aa >= ab;
+auto aia = ab >= aa;
+auto aj  = aa <= ab;
+auto aja = ab <= aa;
+auto ak  = aa == ab;
+auto aka = ab == aa;
+auto al  = aa != ab;
+auto ala = ab != aa;
+auto am  = aa | ab;
+auto ama = ab | aa;
+auto an  = aa & ab;
+auto ana = ab & aa;
+auto ao  = !ab;
+auto ap  = ab && aa;
+auto apa = aa && ab;
+auto aq  = ab || aa;
+auto aqa = aa || ab;
+auto ar  = aa ^ ab;
+auto ara = ab ^ aa;
+
+
