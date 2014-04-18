@@ -1,15 +1,15 @@
 int a = 10;
-int ab = a;			// error. not known at compile time
+auto ab = a;			// error. not known at compile time
 
 function : float b() { return 5.5; }
-int ba = b();			// error. not known at compile time
+auto ba = b();			// error. not known at compile time
 
 int c = 5;
-static int ca = c; 	// eror. not known at compile time
+static auto ca = c; 	// eror. not known at compile time
 
 function : void d() {
 	float da = 7.1;
-	static float db = da; // eror. not known at compile time
+	static auto db = da; // eror. not known at compile time
 }
 
 function : void e() {
@@ -19,7 +19,7 @@ function : void e() {
 }
 
 int f = 10;
-const int fa = f; 		// invalid. not known at compile time
+const auto fa = f; 		// invalid. not known at compile time
 
 function : void g() {
 	auto ga = true;
@@ -28,7 +28,7 @@ function : void g() {
 }
 
 int h = 10;
-const int ha = h;		// invalid. not known at compile time
+const auto ha = h;		// invalid. not known at compile time
 
 const int i = 10;
-const int ia = i;		// valid
+const auto ia = i;		// valid
