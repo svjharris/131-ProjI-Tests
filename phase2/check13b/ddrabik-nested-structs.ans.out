@@ -1,0 +1,5 @@
+Error, "phase2/check13b/ddrabik-nested-structs.rc": 
+  Size of field invalid cannot be determined at compile time.
+Error, "phase2/check13b/ddrabik-nested-structs.rc": 
+  Field nested declared second time in struct.
+Compile: failure.

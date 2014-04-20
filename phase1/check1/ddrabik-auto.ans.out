@@ -1,0 +1,71 @@
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator %, equivalent to int expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator %, equivalent to int expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator <, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator >, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator <=, numeric expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible types to operator: bool == float;
+  both must be numeric, or both equivalent to bool.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible types to operator: float == bool;
+  both must be numeric, or both equivalent to bool.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible types to operator: bool != float;
+  both must be numeric, or both equivalent to bool.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible types to operator: float != bool;
+  both must be numeric, or both equivalent to bool.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to unary operator !, equivalent to bool expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator &&, equivalent to bool expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator ||, equivalent to bool expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "phase1/check1/ddrabik-auto.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Compile: failure.

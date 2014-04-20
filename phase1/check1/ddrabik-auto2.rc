@@ -1,0 +1,94 @@
+function : void main() {
+	int a;
+	auto aa = 5 + 5;
+	a = aa;
+	
+	
+	int b;
+	float ba;
+	auto bc = 5 + 5;
+	auto bd = 5.0 + 5;
+	auto be = 5.0 + 5.0;
+	b  = bc;
+	b  = bd;
+	b  = be;
+	ba = bc;
+	ba = bd;
+	ba = be;
+	
+	
+	int c;
+	bool ca;
+	auto cb = true;
+	c  = cb;
+	ca = cb;
+	
+	int d;
+	float da;
+	bool daa;
+	auto db = 10 % 5;
+	d   = db;			// valid
+	da  = db;			// valid
+	daa = db;			// invalid
+
+	int ea;
+	bool eaa;
+	auto eb  = 5 < 10;
+	auto eba = 5 > 10;
+	auto ebb = 5 <= 10;
+	auto ebc = 5 >= 10;
+	eaa = eb;				// valid
+	ea  = eb;				// invalid
+	eaa = eba;				// valid
+	ea  = eba;				// invalid
+	eaa = ebb;				// valid
+	ea  = ebb;				// invalid
+	eaa = ebc;				// valid
+	ea  = ebc;				// invalid
+
+	int f;
+	bool fa;
+	auto fb  = 5 == 5;
+	auto fba = true == false;
+	auto fbb = 5 != 5;
+	auto fbc = false != false;
+	f  = fb;
+	fa = fb;
+	f  = fba;
+	fa = fba;
+	f  = fbb;
+	fa = fbb;
+	f  = fbc;
+	fa = fbc;
+
+	int g;
+	bool ga;
+	auto gb  = false && true;
+	auto gba = false || true;
+	auto gbb = !false;
+	g  = gb;
+	ga = gb;
+	g  = gba;
+	ga = gba;
+	g  = gbb;
+	ga = gbb;
+
+	int h;
+	bool ha;
+	float haa;
+	auto hb  = 5 | 2;
+	auto hba = 402 & 123;
+	auto hbb = 12 ^ 141;
+	h   = hb;			// valid
+	haa = hb;			// valid
+	ha  = hb;			// invalid
+	h   = hba;			// valid
+	haa = hba;			// valid
+	ha  = hba;			// invalid
+	h   = hbb;			// valid
+	haa = hbb;			// valid
+	ha  = hbb;			// invalid
+
+
+}
+
