@@ -1,0 +1,8 @@
+structdef MYS { 
+	int x, y;
+        int x;
+        int z, x;
+	float y;
+        int w;
+        int w;
+};

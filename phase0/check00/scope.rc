@@ -8,7 +8,6 @@ function : int main() {
   //as valid operands.
 
   x = x + 2;	// Fix the Phase 0 scope bug to find the local int x first !
-  y = 2;
 
   return 0;
 }

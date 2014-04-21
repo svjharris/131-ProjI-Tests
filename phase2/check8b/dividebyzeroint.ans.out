@@ -1,0 +1,5 @@
+Error, "phase2/check8b/dividebyzeroint.rc": 
+  Arithmetic exception occurred during constant folding.
+Error, "phase2/check8b/dividebyzeroint.rc": 
+  Arithmetic exception occurred during constant folding.
+Compile: failure.

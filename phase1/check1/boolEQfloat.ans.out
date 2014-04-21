@@ -1,0 +1,4 @@
+Error, "phase1/check1/boolEQfloat.rc": 
+  Incompatible types to operator: bool == float;
+  both must be numeric, or both equivalent to bool.
+Compile: failure.

@@ -1,0 +1,3 @@
+Error, "phase1/check4/ifFloat.rc": 
+  bool or int required for conditional test, float found.
+Compile: failure.

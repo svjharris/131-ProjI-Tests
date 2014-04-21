@@ -1,0 +1,7 @@
+static int i = 1;
+static int j = i;
+
+function : void main() {
+    static int x = 2;
+    static int y = i;
+}

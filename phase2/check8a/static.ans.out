@@ -1,0 +1,5 @@
+Error, "phase2/check8a/static.rc": 
+  Initialization value of global/static variable named j not known at compile time.
+Error, "phase2/check8a/static.rc": 
+  Initialization value of global/static variable named y not known at compile time.
+Compile: failure.

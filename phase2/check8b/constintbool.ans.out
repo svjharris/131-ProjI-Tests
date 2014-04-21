@@ -1,0 +1,5 @@
+Error, "phase2/check8b/constintbool.rc": 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Error, "phase2/check8b/constintbool.rc": 
+  Initialization value of type bool not assignable to constant/variable of type int.
+Compile: failure.

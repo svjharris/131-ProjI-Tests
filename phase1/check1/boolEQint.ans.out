@@ -1,0 +1,4 @@
+Error, "phase1/check1/boolEQint.rc": 
+  Incompatible types to operator: bool == int;
+  both must be numeric, or both equivalent to bool.
+Compile: failure.

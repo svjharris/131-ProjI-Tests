@@ -1,0 +1,37 @@
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "phase1/check1/ddrabik-auto2.rc": 
+  Value of type int not assignable to variable of type bool.
+Compile: failure.
