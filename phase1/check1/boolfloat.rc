@@ -1,3 +1,0 @@
-bool i = 1.0; 
-                float j = 1.0;
-                bool k = i | j;

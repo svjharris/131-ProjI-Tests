@@ -1,3 +1,0 @@
-bool i = 1.0; 
-                bool j = false;
-                bool k = i | j;
