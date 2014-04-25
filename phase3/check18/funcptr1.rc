@@ -1,0 +1,37 @@
+typedef funcptr : int( int x, int y) MYPTRALIAS;
+typedef MYPTRALIAS MYPTR2ALIAS;
+MYPTRALIAS myPtr1, myPtr2;
+MYPTRALIAS myPtr3;
+MYPTR2ALIAS myPtr4;
+
+int* c;
+
+function: int addition( int x, int y) {
+  return x + y;
+}
+
+function : int subtraction (int x, int y) {
+  return x -y;
+}
+
+function : int main() {
+//legal stuff
+funcptr : void (int a) whoo;
+if(myPtr1 == nullptr || whoo == nullptr || nullptr == myPtr4 || myPtr1 == myPtr4) { 
+myPtr2 = subtraction;
+}
+myPtr2(4,6);
+myPtr2 = addition;
+myPtr2 = myPtr1;
+myPtr4= nullptr;
+
+
+//illegal stuff
+myPtr4();
+myPtr4(0.0, 1.0);
+whoo = subtraction; //can’t assign diff fund ptr types
+whoo = subtraction(1,2); //can’t assign int (the return value of subtraction to whoo
+
+
+return 0;
+}

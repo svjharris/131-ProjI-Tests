@@ -1,0 +1,11 @@
+Error, "phase3/check18/funcptr1.rc": 
+  Number of arguments (0) differs from number of parameters (2).
+Error, "phase3/check18/funcptr1.rc": 
+  Argument of type float not assignable to value parameter x, of type int.
+Error, "phase3/check18/funcptr1.rc": 
+  Argument of type float not assignable to value parameter y, of type int.
+Error, "phase3/check18/funcptr1.rc": 
+  Value of type funcptr : int (int x, int y) not assignable to variable of type funcptr : void (int a).
+Error, "phase3/check18/funcptr1.rc": 
+  Value of type int not assignable to variable of type funcptr : void (int a).
+Compile: failure.

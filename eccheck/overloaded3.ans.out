@@ -1,0 +1,3 @@
+Error, "eccheck/overloaded3.rc": 
+  Illegal call to overloaded function foo.
+Compile: failure.

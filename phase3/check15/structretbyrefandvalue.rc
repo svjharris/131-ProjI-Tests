@@ -1,0 +1,54 @@
+
+
+//valid
+structdef MYS {
+  float i, j;
+  int k;
+};
+
+typedef MYS MYS2;
+typedef MYS2[20] MYS3;
+typedef MYS2** MYS4;
+
+typedef float** F;
+typedef F[32] G; //if we dereference this it shouldn't be possible
+
+function: MYS2* foo (MYS ** foo ) {
+  return *foo;
+}
+
+//pass by value
+function: float foo2(MYS2 foo) {
+return foo.k;
+}
+
+//pass by reference
+function: int foo3(MYS* & foo) {
+return foo -> k;
+}
+function: MYS4 foo4(MYS2** & foo) {
+  return foo;
+}
+
+//invalid
+function: MYS4 foo5(MYS3*** & foo) {
+  return foo;
+}
+
+function: void main() {
+//legal
+F c2, **c3;
+MYS2 c4, **c5, [32]c6;
+
+**c2= 3;
+
+float c7 = ****c3 + 3;
+int c8 = c4.k + 5;
+bool c9 = (*c5)->k > 5 || (**c5).k > 6;
+c4 = **(foo4(c5));
+
+//illegal
+G* c1 = 3;
+float c10 = **c3 + 3;
+
+}

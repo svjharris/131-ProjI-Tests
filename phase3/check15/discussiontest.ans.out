@@ -1,0 +1,5 @@
+Error, "phase3/check15/discussiontest.rc": 
+  Initialization value of type FA2A3 not assignable to constant/variable of type float**.
+Error, "phase3/check15/discussiontest.rc": 
+  Initialization value of type int[4] not assignable to constant/variable of type int**.
+Compile: failure.

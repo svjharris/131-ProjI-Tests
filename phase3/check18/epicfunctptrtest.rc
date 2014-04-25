@@ -1,0 +1,9 @@
+
+typedef funcptr: void () A;
+function: A foo(funcptr : void() &a, funcptr : int( funcptr : bool () &c) &b) {
+return nullptr;
+}
+
+
+function: void main() {
+}

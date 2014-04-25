@@ -1,0 +1,7 @@
+Error, "eccheck/overloaded.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "eccheck/overloaded.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "eccheck/overloaded.rc": 
+  Illegal call to overloaded function foo.
+Compile: failure.

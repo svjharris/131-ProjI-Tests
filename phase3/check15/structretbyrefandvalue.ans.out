@@ -1,0 +1,7 @@
+Error, "phase3/check15/structretbyrefandvalue.rc": 
+  Type of return expression (MYS3***), not assignment compatible with function's return type (MYS4).
+Error, "phase3/check15/structretbyrefandvalue.rc": 
+  Initialization value of type int not assignable to constant/variable of type G*.
+Error, "phase3/check15/structretbyrefandvalue.rc": 
+  Incompatible type F to binary operator +, numeric expected.
+Compile: failure.

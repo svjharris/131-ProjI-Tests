@@ -1,0 +1,5 @@
+Error, "phase3/check18/funcptr2.rc": 
+  Value of type funcptr : BOOLPTR2 & (FUNCPTRTYPEDEF fpt1, FUNCPTRTYPEDEF2 fpt2, INTPTR2 x1, BOOLPTR2 x2) not assignable to variable of type FUNCPTRTYPEDEF2.
+Error, "phase3/check18/funcptr2.rc": 
+  Value of type funcptr : bool & (int*** &x, bool*** &x2) not assignable to variable of type FUNCPTRTYPEDEF.
+Compile: failure.

@@ -1,0 +1,13 @@
+Error, "phase3/check16/newdeletetest.rc": 
+  Operand to "new" is not a modifiable L-value.
+Error, "phase3/check16/newdeletetest.rc": 
+  Operand to "delete" is not a modifiable L-value.
+Error, "phase3/check16/newdeletetest.rc": 
+  Type of new's operand must be of pointer type, MYS2 found.
+Error, "phase3/check16/newdeletetest.rc": 
+  Type of delete's operand must be of pointer type, MYS3 found.
+Error, "phase3/check16/newdeletetest.rc": 
+  Operand to "delete" is not a modifiable L-value.
+Error, "phase3/check16/newdeletetest.rc": 
+  Type of new's operand must be of pointer type, MYS found.
+Compile: failure.

@@ -1,0 +1,13 @@
+Error, "phase3/check15/structptrs.rc": 
+  Value of type int not assignable to variable of type PTR.
+Error, "phase3/check15/structptrs.rc": 
+  Referenced field x not found in type MYSTRUCT.
+Error, "phase3/check15/structptrs.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "phase3/check15/structptrs.rc": 
+  Value of type int not assignable to variable of type int*.
+Error, "phase3/check15/structptrs.rc": 
+  Incompatible type int* to operator ->, pointer to struct expected.
+Error, "phase3/check15/structptrs.rc": 
+  Referenced field s not found in type MYSTRUCT.
+Compile: failure.

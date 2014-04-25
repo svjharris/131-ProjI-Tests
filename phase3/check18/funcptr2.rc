@@ -1,0 +1,50 @@
+//trying with typedeffed return types and parameters
+
+typedef int INT;
+typedef float FLOAT;
+typedef bool BOOL;
+
+typedef int*** INTPTR;
+typedef INTPTR[32] INTPTR2;
+typedef bool*** BOOLPTR;
+typedef BOOLPTR* BOOLPTR2;
+
+typedef funcptr : bool (INTPTR x, BOOLPTR y) FUNCPTRTYPEDEF;
+typedef funcptr : bool & (INTPTR* x, BOOLPTR[32] y) FUNCPTRTYPEDEF2;
+FUNCPTRTYPEDEF myPt1, *myPt2;
+FUNCPTRTYPEDEF2 myPt3;
+
+
+//legal stuff
+function: bool testingFuncPtr(int*** x, bool*** x2) {
+return false;
+}
+
+//copy of the above w/ ret by ref
+function: bool & testingFuncPtr2(int*** &x, bool*** &x2) {
+bool asdf;
+return asdf;
+}
+
+
+//legal stuff
+function: FUNCPTRTYPEDEF functionReturningFuncpointer() {
+  return testingFuncPtr;
+  return *myPt2;
+}
+
+function: BOOLPTR2 & functionTakingFuncPtrParam(FUNCPTRTYPEDEF fpt1, FUNCPTRTYPEDEF2 fpt2, INTPTR2 x1, BOOLPTR2 x2) {
+fpt1(x1[0], *x2);
+return x2;
+}
+
+function: void main() {
+//illegal
+myPt3 = functionTakingFuncPtrParam;
+myPt1=  testingFuncPtr2;
+}
+
+
+
+
+

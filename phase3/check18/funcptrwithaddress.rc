@@ -1,0 +1,13 @@
+function: int foo() {return 0; }
+funcptr: int() fp1 = foo;
+funcptr: int() fp2;
+typedef funcptr : int() MYFP;
+MYFP myFuncPtr = foo;
+
+
+function: int main() {
+MYFP* myFuncPtrPtr;
+myFuncPtrPtr = &myFuncPtr;
+(*myFuncPtrPtr)();
+return myFuncPtr();
+}

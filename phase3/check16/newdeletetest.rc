@@ -1,0 +1,37 @@
+structdef MYS { float i; };
+structdef OTHERS { int i; };
+
+typedef MYS MYS2, MYS3;
+//typedef MYS MYS3;
+typedef MYS** MYS4;
+typedef  MYS4 MYS5;
+
+
+function: void main() {
+const int a = 5;
+MYS2 c;
+MYS3 d;
+MYS4 e;
+MYS5 f;
+MYS5[32] g;
+
+//not mod lval
+new a;
+delete a;
+//not valid ptr type
+new c;
+delete d;
+//not modlval
+delete g;
+ //not valid ptr 
+new **f;
+
+
+//legal
+new e;
+delete f;
+new *f;
+delete *f;
+
+
+}
